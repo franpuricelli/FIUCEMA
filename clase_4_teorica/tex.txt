@@ -1,0 +1,4 @@
+Ya vimos que en programación suele ser útil repetir la ejecución de 
+porciones de código. Las expresiones regulares nos permiten no solo delimitar la porción de 
+texto donde deseamos buscar, sino que también permite repitir cierta cantidad de 
+veces una busqueda dada. Para ello se utilizan los metacaracteres cuantificadoresº
