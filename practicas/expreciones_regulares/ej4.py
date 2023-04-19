@@ -7,7 +7,7 @@ def he(string):
         return "Valor encontrado"
     else: return "patron no encontrado"
 
-print(he("hol_aaaaputo"))
+print(he("hol_a"))
 """
 def palabras_unidas(string):
     patron = "^[a-z]+_[a-z]+$"
