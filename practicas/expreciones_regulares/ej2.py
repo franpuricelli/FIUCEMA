@@ -2,5 +2,6 @@
 import re
 
 def verificar(string):
-    return bool(re.search("[a-zA-Z0-9]",string))
+    return bool(re.search("[^a-zA-Z0-9$]", string))
+    
 print(verificar("@"))

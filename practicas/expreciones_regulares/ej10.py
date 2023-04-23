@@ -5,5 +5,5 @@ def subestrin(string):
     patron = "[@|&]+(.*?)[@|&]"
     return re.findall(patron,string)
 
-print(subestrin("hola como estas @carlitos @marquitos @"))
+print(subestrin("hola como estas @carlitos @@marquitos@ytyu&"))
 
