@@ -23,5 +23,11 @@ def he2(t):
     else:
         print("no se encontro el patron")
 
-print(he2(texto))
+def he1(string):
+    patron = "he+"
+    if re.search(patron,string) is not None:
+        print("Se encontro el patron")
+    else:
+        print("no se encontro el patron")
 
+print(he1("hela"))

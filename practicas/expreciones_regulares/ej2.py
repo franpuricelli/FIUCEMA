@@ -2,6 +2,7 @@
 import re
 
 def verificar(string):
-    return bool(re.search("[^a-zA-Z0-9$]", string))
+    return not bool(re.search(r"[^a-zA-Z0-9]", string))
     
-print(verificar("@"))
+print(verificar("abce"))
+print(verificar("abc@e"))
