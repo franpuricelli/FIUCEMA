@@ -1,0 +1,38 @@
+h1 {
+    color: rgba(0, 255, 0, 0.945);
+    font: 700;
+    font: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section{
+    background-color: rgb(204, 168, 168);
+}
+.Welcome{
+    background-color: aqua;
+}
+
+.Welcome p {
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.Welcome p:hover{
+    color: chocolate;
+}
+.About p {
+    color: aquamarine;
+}
+.About p:hover{
+    color: brown;
+}
+.footer p:hover{
+    color: blue;
+}
+.footer p{
+    padding: 100px;
+}
+
+
+
+
