@@ -8,4 +8,8 @@ app = Flask(__name__)
 def home():
     return render_template("home.html") #<p> etiqueta de parrafo
 
+@app.get("/conclusiones")
+def home1():
+    return render_template("conclusiones.html")
+
 
