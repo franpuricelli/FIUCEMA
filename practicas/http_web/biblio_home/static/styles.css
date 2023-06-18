@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    background-color:rgb(191, 186, 246);
+    font-family: 'Press Start 2P', sans-serif;
+    text-align: center;
+ }
+
+.caja{
+
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 230px;
+    border: 3px solid black;
+    stroke: black;
+    stroke-width: 5px;
+    background-color: rgb(149, 244, 206);
+    width: 1000px;
+    height: 450px;
+
+}
+
+.subcaja{
+
+    margin-top: 75px;
+    border-top: 3px solid black;
+
+}
+
+.circulo1{
+
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 20px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid black;
+    background-color: rgb(237, 75, 75); 
+
+}
+
+.circulo2{
+
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 80px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid black;
+    background-color: rgb(231, 237, 75); 
+
+}
+
+.circulo3{
+
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 140px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid black;
+    background-color: rgb(51, 248, 255); 
+
+}
+
+.caja h1 p{
+
+    font-size: 30px;
+    margin-top: 40px;
+
+}
+
+.caja h2 p{
+
+    color:rgb(242, 174, 250);
+    font-size: 110px;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    margin-top: 60px;
+
+}
+
+.boton{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(48, 228, 48);
+    margin-top: 535px;
+    margin-left: 630px;
+    border-radius: 10px;
+    color: black;
+    stroke: black;
+    stroke-width: 5px;
+
+}
+.boton:hover{
+    background: rgb(25, 0, 255);
+}
+
+.caja h3 img{
+
+    position: absolute;
+    height: 250px;
+    margin-top: -25px;
+    margin-left: 350px;
+
+}
+
+.caja h4 img{
+
+    position: absolute;
+    height: 100px;
+    margin-top: 355px;
+    margin-left: -110px;
+    z-index: 1;
+
+}

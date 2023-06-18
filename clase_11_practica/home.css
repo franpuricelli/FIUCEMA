@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    display: grid;
+}
+
+.arriba_izq{
+
+    position: absolute;
+    display: grid;
+    background-color: #72ffd5;
+    padding: 50px 50px 50px 50px;
+
+}
+
+
+.arriba_der{
+
+    display: grid;
+    position: absolute;
+    background-color: #72FFD4;
+
+}
+
+.abajo_izq{
+
+    display: grid;
+    position: absolute;
+    background-color: #72FFD4;
+
+}
+
+.arriba_der{
+
+    display: grid;
+    position: absolute;
+    background-color: #72FFD4;
+
+}
